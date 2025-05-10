@@ -1,4 +1,4 @@
-Sure! Below is a **complete and properly formatted README document** suitable for a GitHub repository or academic/portfolio project. It includes all the necessary sections: project overview, setup, usage, features, file structure, and disclaimer.
+
 
 ---
 
