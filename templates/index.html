@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Instagram Followers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Get Instagram Followers in Just One Click</h1>
+    
+    <form id="loginForm">
+        <label for="username">Instagram Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Instagram Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="hashtags">Hashtags (separate with commas):</label>
+        <input type="text" id="hashtags" name="hashtags" placeholder="#basketball, #electronics, #football" required>
+        
+        <button type="submit">Submit</button>
+    </form>
+    <div id="spinner" style="display:none;">Loading...</div>
+</div>
+    <script src="static\script.js"></script>
+</body>
+</html>
